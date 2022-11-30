@@ -49,12 +49,63 @@
 
 //---------------------- 5
 
-let nota1,nota2,nota3,nota4,prom=0
+// let nota1,nota2,nota3,nota4,prom=0
 
-nota1=parseFloat(prompt('Ingrese Nota 1: '))
-nota2=parseFloat(prompt('Ingrese Nota 2: '))
-nota3=parseFloat(prompt('Ingrese Nota 3: '))
-nota4=parseFloat(prompt('Ingrese Nota 4: '))
+// nota1=parseFloat(prompt('Ingrese Nota 1: '))
+// nota2=parseFloat(prompt('Ingrese Nota 2: '))
+// nota3=parseFloat(prompt('Ingrese Nota 3: '))
+// nota4=parseFloat(prompt('Ingrese Nota 4: '))
+// prom=((nota1+nota2+nota3+nota4)/4)
+// console.log('El promedio es de',prom)
 
-prom=(nota1+nota2+nota3+nota4/4)
-console.log('El promedio es de',prom)
+//------------------------ 6
+
+
+// let numPulsaciones,edad=0
+
+// edad=parseInt(prompt('Ingrese su edad: '))
+
+// numPulsaciones=(220-edad)/10
+
+// console.log( 'Tú debes tener',numPulsaciones, 'pulsaciones cada 10 segundos')
+
+//------------------------- 7
+
+// let sueldoBase=0,extra=10,ventas=3,totalVentas=0,total=0
+
+// sueldoBase=parseFloat(prompt('Ingrese su sueldo base: '))
+// totalVentas=parseFloat(prompt('Ingrese el total de ventas: '))
+
+// extra=(extra*totalVentas)/100
+// totalVentas=extra+totalVentas
+// total=sueldoBase+totalVentas
+
+// console.log(`Usted recibirá una comisión de: ${extra}\nEn total recibirá un salario de: ${total}`)
+
+//-------------------------- 8
+
+// let calMatemat,tareaMat1,tareaMat2,tareaMat3,examenMat,calFisica,tareaFis1,tareaFis2,examenFis,calQuim,tareaQuim1,tareaQuim2,tareaQuim3,examenQuim
+
+// examenMat=parseFloat(prompt('Ingrese su nota en exámen de Matemáticas: '))
+// tareaMat1=parseFloat(prompt('Ingrese su nota en tarea 1 de Matemáticas: '))
+// tareaMat2=parseFloat(prompt('Ingrese su nota en tarea 2 de Matemáticas: '))
+// tareaMat3=parseFloat(prompt('Ingrese su nota en tarea 3 de Matemáticas: '))
+
+// calMatemat=(examenMat+((tareaMat1+tareaMat2+tareaMat3)/3))/2
+
+// examenFis=parseFloat(prompt('Ingrese su nota en exámen de Física: '))
+// tareaFis1=parseFloat(prompt('Ingrese su nota en tarea 1 de Física: '))
+// tareaFis2=parseFloat(prompt('Ingrese su nota en tarea 2 de Física: '))
+
+// calFisica=(examenFis+((tareaFis1+tareaFis2)/2))/2
+
+// examenQuim=parseFloat(prompt('Ingrese su nota en exámen de Química: '))
+// tareaQuim1=parseFloat(prompt('Ingrese su nota en tarea 1 de Química: '))
+// tareaQuim2=parseFloat(prompt('Ingrese su nota en tarea 2 de Química: '))
+// tareaQuim3=parseFloat(prompt('Ingrese su nota en tarea 3 de Química: '))
+
+// calQuim=(examenQuim+((tareaQuim1+tareaQuim2+tareaQuim3)/3))/2
+
+// console.log(`Promedio en Matemáticas: ${calMatemat}\nPromedio en Físcia: ${calFisica}\nPromedio Química: ${calQuim}`)
+
+
